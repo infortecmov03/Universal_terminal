@@ -1,0 +1,8 @@
+class DeviceConstants {
+  // UUIDs genéricos - ajuste para seu dispositivo específico
+  static const String serviceUuid = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E";
+  static const String txCharacteristicUuid = "6E400002-B5A3-F393-E0A9-E50E24DCCA9E";
+  static const String rxCharacteristicUuid = "6E400003-B5A3-F393-E0A9-E50E24DCCA9E";
+  
+  static const List<String> supportedServices = [serviceUuid];
+}
