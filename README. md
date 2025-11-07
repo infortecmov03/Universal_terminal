@@ -1,0 +1,32 @@
+# Terminal Universal
+
+Terminal Flutter para conexão com dispositivos reais (BLE) e modo simulado.
+
+## 🚀 Funcionalidades
+
+- **Modo Real**: Conexão via Bluetooth Low Energy com dispositivos físicos
+- **Modo Simulado**: Teste seguro com dados simulados
+- **Indicadores Visuais**: Destaque claro do modo de operação atual
+- **Confirmações**: Proteção contra operações acidentais no modo real
+
+## ⚠️ Avisos de Segurança
+
+- **Modo Real** pode causar alterações permanentes em dispositivos físicos
+- Sempre verifique o modo de operação antes de enviar comandos
+- Confirmações são exigidas para operações críticas
+
+## 🛠️ Build Automático
+
+O APK é gerado automaticamente via GitHub Actions a cada:
+- Push para `main`/`master`
+- Criação de tags `v*`
+
+## 📱 Download
+
+Veja a aba **Releases** para baixar a versão mais recente.
+
+## 🔧 Desenvolvimento
+
+```bash
+flutter pub get
+flutter run
